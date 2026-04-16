@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vehicle Booking API
 
 Backend assessment implementation for a Vehicle Booking API built with NestJS, TypeORM, PostgreSQL, Docker, and Swagger.
@@ -219,3 +220,7 @@ Example request body:
 - Docker support
 - README
 - Short technical explanation in [SHORT_EXPLANATION.md](/d:/ASSESMENTS/backend_vehicle_booking_application/SHORT_EXPLANATION.md)
+=======
+# vehicle-booking-api-nestjs
+Scalable Vehicle Booking API using NestJS, implementing clean architecture, robust validation, booking conflict detection, and optimized pricing logic with full Swagger documentation.
+>>>>>>> ec6a57c51847d5fde9449b2022cbd39f96eef83f
