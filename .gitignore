@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.edge-profile
+page1.png
+pdf_extracted.txt
+word_extracted.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
