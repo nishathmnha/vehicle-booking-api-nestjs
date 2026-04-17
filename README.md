@@ -1,33 +1,37 @@
 # Vehicle Booking API
 
-Scalable Vehicle Booking API built with NestJS, TypeORM, PostgreSQL, Docker, and Swagger. It supports vehicle management, booking creation, overlap validation, and hourly/daily pricing logic.
+Scalable Vehicle Booking API built with **NestJS**, **TypeScript**, **PostgreSQL**, and **Docker**.  
+Includes booking conflict detection, pricing logic, and full Swagger documentation.
 
-## Features
+---
 
-- Vehicle CRUD endpoints
-- Booking creation and retrieval endpoints
-- Booking overlap validation
-- Hourly and daily pricing logic
-- Swagger UI available at `/api`
+## 🚀 Tech Stack
+
+- **Backend**: NestJS (TypeScript)
+- **Database**: PostgreSQL
+- **ORM**: TypeORM
+- **Containerization**: Docker / Docker Compose
+- **API Documentation**: Swagger (OpenAPI)
+
+---
+
+## ✨ Features
+
+- Vehicle CRUD APIs
+- Booking creation & retrieval
+- Booking overlap validation (409 Conflict)
+- Hourly & daily pricing logic (with cap)
+- Swagger UI at `/api`
 - Dockerized PostgreSQL setup
 
-## Tech Stack
+---
 
-- NestJS
-- TypeScript
-- TypeORM
-- PostgreSQL
-- Docker / Docker Compose
-- Swagger (`@nestjs/swagger`)
-
-## Project Structure
+## 📁 Project Structure
 
 ```text
 src/
-  app.controller.ts
-  app.module.ts
-  main.ts
   bookings/
+  vehicles/
   common/
   config/
-  vehicles/
+  main.ts
