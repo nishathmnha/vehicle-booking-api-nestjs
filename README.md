@@ -5,13 +5,14 @@ Includes booking conflict detection, pricing logic, and full Swagger documentati
 
 ## 🚀 Vehicle Booking API
 
-**Tech Stack:** NestJS, TypeScript, PostgreSQL, TypeORM, Docker, Swagger
+## 🚀 Tech Stack
 
-- Booking conflict detection
-- Pricing engine
-- Clean architecture
-
-🔗 https://github.com/nishathmnha/vehicle-booking-api-nestjs
+- **Backend:** NestJS
+- **Language:** TypeScript
+- **Database:** PostgreSQL
+- **ORM:** TypeORM
+- **Containerization:** Docker / Docker Compose
+- **API Documentation:** Swagger
 
 ## ✨ Features
 
